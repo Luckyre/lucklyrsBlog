@@ -196,9 +196,9 @@ uglyURLs = false
     [[menu.main]]
         pageref = "/life/"
         name = "生活"
-        weight = 2
+        weight = 1
         pre = "internal"
-        post = "wpexplorer"
+        post = "grav"
         identifier = "life"
     [[menu.main]]
         pageref = "/tech/"
