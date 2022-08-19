@@ -17,6 +17,6 @@ jobs:
       env:
         DEPLOY_REPO: Luckyre/luckyre.github.io
         DEPLOY_BRANCH: master
-        DEPLOY_KEY: ${{ secrets.PERSONAL_TOKEN }}
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         commit_message: ${{ github.event.head_commit.message }}
