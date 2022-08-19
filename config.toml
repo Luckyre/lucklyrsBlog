@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
+baseURL = "https://luckyre.github.io/"
 title = "lucklyrs"
 languageCode = "zh-CN"
 hasCJKLanguage = true
