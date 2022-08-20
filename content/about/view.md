@@ -13,11 +13,11 @@ draft: true
 
 总结：
 1. [Markdown](https://coding.net/help/doc/project/markdown.html#Markdown)书写格式
-2. [Hexo](https://hexo.io/)+[NexT](https://github.com/theme-next/hexo-theme-next)主题搭建 + 服务器及nginx配置 可参考博主[易 象 辞](https://io-oi.me/tech/hexo-next-optimization/)👍👍 
+2. [Hexo](https://hexo.io/)+[NexT](https://github.com/theme-next/hexo-theme-next)主题搭建 + 服务器及nginx配置+[hexo-deployer-git](https://github.com/hexojs/hexo-deployer-git)集成部署，可参考博主[易 象 辞](https://io-oi.me/tech/hexo-next-optimization/)👍👍 
 
 
 以下是我通过hexo迁移hugo历程:
-    hexo的慢速和界面体验上让感觉不是很舒服，所以开始寻找新的美观。借鉴和参考是最好的成长😂，于是我这一次盯上了[Hugo](https://gohugo.io/)+[MemE](https://github.com/reuixiy/hugo-theme-meme)主题，通过 [GitHub Actions](https://github.com/reuixiy/io-oi.me/actions) 进行持续构建、持续部署，挂载在[GitHub Pages](https://pages.github.com/)服务上。
+    hexo的慢速和界面体验上让感觉不是很舒服，所以开始寻找新的美观。借鉴和参考是最好的成长😂，于是我这一次盯上了[Hugo](https://gohugo.io/)+[MemE](https://github.com/reuixiy/hugo-theme-meme)主题，通过 [GitHub Actions](https://github.com/Luckyre/lucklyrsBlog/actions)+[hugo-deploy](https://github.com/reuixiy/hugo-deploy)部署配置， 进行持续构建、持续部署，挂载在[GitHub Pages](https://pages.github.com/)服务上。
 
 总结：
  梅开二度，再次感谢大佬的文章🍻🍻[reuixiy](https://io-oi.me/)
