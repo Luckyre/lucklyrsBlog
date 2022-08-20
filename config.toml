@@ -206,18 +206,18 @@ uglyURLs = false
         post = "wpexplorer"
         identifier = "tech"
     [[menu.main]]
-        pageref = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "internal"
-        post = "tags"
-    [[menu.main]]
         pageref = "/about/"
         name = "关于"
         weight = 3
         pre = "internal"
         post = "user-circle"
         identifier = "about"
+    [[menu.main]]
+        pageref = "/tags/"
+        name = "标签"
+        weight = 4
+        pre = "internal"
+        post = "tags"
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"

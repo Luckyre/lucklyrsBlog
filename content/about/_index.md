@@ -1,6 +1,6 @@
 ---
-title: "View"
-date: 2022-08-20T10:27:25+08:00
+title: "About"
+date: 2022-08-20T12:49:57+08:00
 draft: true
 ---
 
@@ -20,7 +20,7 @@ draft: true
     hexo的慢速和界面体验上让感觉不是很舒服，所以开始寻找新的美观。借鉴和参考是最好的成长😂，于是我这一次盯上了[Hugo](https://gohugo.io/)+[MemE](https://github.com/reuixiy/hugo-theme-meme)主题，通过 [GitHub Actions](https://github.com/Luckyre/lucklyrsBlog/actions)+[hugo-deploy](https://github.com/reuixiy/hugo-deploy)部署配置， 进行持续构建、持续部署，挂载在[GitHub Pages](https://pages.github.com/)服务上。
 
 总结：
- 梅开二度，再次感谢大佬的文章🍻🍻[reuixiy](https://io-oi.me/)
+ 梅开二度，再次感谢大佬[reuixiy](https://io-oi.me/)的文章🍻🍻
 
 再次感谢您的阅读，如果您有什么想法，欢迎留言（还没开发😂），或者提出您的[建议](https://github.com/Luckyre)。
 
