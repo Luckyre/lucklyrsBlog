@@ -13,6 +13,7 @@
 .brand {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    font-size: 2em;
     line-height: 1;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .menu-item {
-    .life, .tech, .about {
+    .life, .tech, .about, .tags{
         display: none;
     }
 }
@@ -171,9 +172,13 @@ body {
         'opsz' 60,
         'YOPQ' 90;
 }
+.list-item-title{
+    font-size: 1.2em;
+}
 
 .list-item-time {
     font-feature-settings: 'tnum';
+    font-size: 1.2em;
 }
 
 
