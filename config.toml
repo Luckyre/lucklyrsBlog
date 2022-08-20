@@ -206,7 +206,7 @@ uglyURLs = false
         post = "wpexplorer"
         identifier = "tech"
     [[menu.main]]
-        pageref = "/abou/"
+        pageref = "/about/"
         name = "关于"
         weight = 3
         pre = "internal"
@@ -419,6 +419,7 @@ uglyURLs = false
     displayListTitle = true
 
     # 日期的格式
+    buildFuture = true
     listDateFormat = "2006-01-02"
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
