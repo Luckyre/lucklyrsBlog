@@ -3,7 +3,6 @@ title: "Reading Class"
 categories: 
 - 读书笔记
 date: "2022-08-20 17:10:11"
-indent = true
 +++
 
 ---
