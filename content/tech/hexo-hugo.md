@@ -1,6 +1,6 @@
 +++
 title = "Hexo迁移hugo"
-date = "2020-08-21 10:17:25"
+date = "2022-08-21 10:17:25"
 tags = ["hugo"]
 gitinfo = true
 dropCap = false
