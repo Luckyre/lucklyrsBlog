@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://luckyre.github.io/"
-title = "lucklyrs"
+title = "luckyre"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -25,7 +25,7 @@ pluralizeListTitles = false
 summaryLength = 42
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
-enableEmoji = false
+enableEmoji = true
 
 # 脚注的返回链接中的文本
 footnoteReturnLinkContents = "↩"
@@ -96,13 +96,13 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "lucklyrs"
+    name = "Luckyre"
     # 邮箱
     email = "lucklyrs@gmail.com"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://luckyre.github.io/"
+    website = "https://github.com/Luckyre/"
 
 # 相关文章
 [related]
@@ -1055,7 +1055,7 @@ uglyURLs = false
     # 文章更新徽章
 
     # 是否开启
-    enablePostUpdatedBadge = true
+    enablePostUpdatedBadge = false
 
     # 是否显示（全局设置）
     displayUpdatedBadge = true

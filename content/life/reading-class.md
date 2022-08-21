@@ -1,5 +1,5 @@
 ---
-title: "Reading Class"
+title: "阅读整理"
 categories: 
 - 读书笔记
 date: "2022-08-20 17:10:11"
