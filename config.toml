@@ -31,7 +31,7 @@ enableEmoji = true
 footnoteReturnLinkContents = "↩"
 
 # 是否启用 Git 版本信息
-enableGitInfo = false
+enableGitInfo = true
 
 # 是否生成 robots.txt 文件
 enableRobotsTXT = true
@@ -1043,7 +1043,7 @@ uglyURLs = false
     # 文章版权
 
     # 是否开启
-    enablePostCopyright = true
+    enablePostCopyright = false
 
     # 是否显示（全局设置）
     displayPostCopyright = true
@@ -1113,7 +1113,7 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
     displayPostShare = true
@@ -1156,7 +1156,7 @@ uglyURLs = false
     # 文章的标签
 
     # 是否开启
-    enablePostTags = true
+    enablePostTags = false
 
     # 标签的图标
     postTagsIcon = "tag"
