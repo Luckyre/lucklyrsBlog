@@ -12,7 +12,7 @@ tags:
     之前趁着学校阿里特权买了个服务器，备案、域名、证书啥的一套走来，放了一段时间，再不用就吃灰了（😃），然后就开始查资料搭建网站。当时查了很多资料，倒腾了一些时间，通过选型[Hexo](https://hexo.io/)+[NexT](https://github.com/theme-next/hexo-theme-next)主题在服务器上搭建了我的博客。小白的我通过折腾，总算是定制化的给博客上些花里胡哨的东西，写了几篇文章，然后就没有然后了😑...
 
 总结：
-1. [Markdown](https://coding.net/help/doc/project/markdown.html#Markdown)书写格式
+1. [Markdown](https://markdown.com.cn/)书写格式
 2. [Hexo](https://hexo.io/)+[NexT](https://github.com/theme-next/hexo-theme-next)主题搭建 + 服务器及nginx配置+[hexo-deployer-git](https://github.com/hexojs/hexo-deployer-git)集成部署，可参考博主[易 象 辞](https://io-oi.me/tech/hexo-next-optimization/)👍👍 
 
 
