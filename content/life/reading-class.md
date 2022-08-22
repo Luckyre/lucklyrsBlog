@@ -3,6 +3,9 @@ title: "阅读整理"
 categories: 
 - 读书笔记
 date: "2022-08-20 17:10:11"
+gitinfo = true
+dropCap = false
+toc = true
 ---
 
 ---
