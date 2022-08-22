@@ -72,7 +72,7 @@ hugo new "about/_index.md"
 hugo server 
 ```
 
-build很快，出现 <http://localhost:1313/>，可以直接打开浏览器访问，随意更新md文章，博客站点内容会自动更新，整挺好😄
+build很快，出现 `http://localhost:1313/`，可以直接打开浏览器访问，随意更新md文章，博客站点内容会自动更新，整挺好😄
 
 
 ### 定制
