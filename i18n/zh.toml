@@ -1,0 +1,2 @@
+[searchResultsNone]
+other = "不支持中文搜索~ 没有找到关于「{{ .Term }}」的结果"

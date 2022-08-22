@@ -149,8 +149,8 @@ uglyURLs = false
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
+    #home = ["HTML", "SectionsAtom", "SectionsRSS"]
     section = ["HTML"]
     taxonomy = ["HTML"]
     term = ["HTML"]
@@ -224,10 +224,10 @@ uglyURLs = false
     [[menu.main]]
         weight = 7
         identifier = "lang-switcher"
-    # [[menu.main]]
-    #     weight = 8
-    #     identifier = "search"
-    #     post = "search"
+     [[menu.main]]
+         weight = 8
+         identifier = "search"
+         post = "search"
 
 
 
@@ -1351,7 +1351,7 @@ uglyURLs = false
 
     # 说明：需要开启 `SearchIndex` 的输出
 
-    enableLunrSearch = false
+    enableLunrSearch = true
     # 说明：https://lunrjs.com/
 
 
