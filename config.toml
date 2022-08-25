@@ -766,7 +766,7 @@ uglyURLs = false
     # 分类的图标
     categoryIcon = "folder"
     # 分类之间的分隔符
-    categoryDelimiter = "/"
+    categoryDelimiter = " | "
 
     # 是否显示字数统计
     displayWordCount = true
@@ -1183,14 +1183,14 @@ uglyURLs = false
     # 极简页脚
 
     # 是否开启
-    enableMinimalFooter = false
+    enableMinimalFooter = true
     enableVerticalBarStructure = false
     # 说明：如果开启此项，显示在右边的部类或分区
     #      将会包含全部的第一级部类或分区，并且
     #      以竖线（|）分隔开来。
 
     # 是否开启关于页面的极简页脚
-    enableAboutPageMinimalFooter = false
+    enableAboutPageMinimalFooter = true
 
 
     ######################################

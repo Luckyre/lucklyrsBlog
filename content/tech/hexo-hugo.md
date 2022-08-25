@@ -2,6 +2,7 @@
 title = "Hexo迁移hugo"
 date = "2022-08-21 10:17:25"
 tags = ["hugo"]
+categories = ["博客搭建","hugo"]
 gitinfo = true
 dropCap = false
 toc = true
