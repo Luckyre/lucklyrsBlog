@@ -5,6 +5,7 @@ tags:
 - 阅书杂记
 ---
 ---
+<img src="https://ghchart.rshah.org/Luckyre" alt="Luckyre's Github chart" />
 
 你好！欢迎来到我的博客专栏，这里记录着我的生活与技术分享。 时光犹如白驹过隙，希望在接下来的岁月分享这拾起的点点美好与回忆。
 
