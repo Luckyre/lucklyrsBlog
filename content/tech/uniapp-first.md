@@ -23,6 +23,57 @@ toc = true
 
 ### uniapp 使用体验
 
-- uniapp
+- uniapp的开发工具也是官方推荐的HBuilder、工具内部也继承了相关基本构建、打包多平台机制，其他需要特殊配置的[插件](https://ext.dcloud.net.cn/search?q=icons&plguin%3Fid=28)也有点相似与VSCode一样，安装相应插件包
+
+- 语法层面很多都是vue的语法，但是生命周期与微信开发的生命周期类似
+
+- uniapp 可以通过 uniCloud整合后台业务
+
+`uniClound` 目前是可以在阿里云与腾讯云为开发者基于serverless模式和JS编程的云开发平台，简单来说就是前端可以使用JS开发后端的业务，而不用去学习后台一些语言  
+
+
+#### uniClound
+
+1、通过注册账号，选择相应的服务商、连接对应的[uniClound 数据库](https://unicloud.dcloud.net.cn/cloud-database?provider=aliyun)
+
+2、通过创建服务空间，关联相应的项目。然后就可以通过在uniClound云数据库中建立数据表、通过建立本地建立云函数api去获取云数据表,如下的
+```js
+// 获取数据库的引用
+'use strict';
+const db = uniCloud.database()
+const $ = db.command.aggregate
+exports.main = async (event, context) => {
+	const {
+		user_id
+	} = event
+	// author_likes_ids
+	let userinfo = await db.collection('user').doc(user_id).get() //获取user表数据
+	userinfo = userinfo.data[0]
+
+	let lists = await db.collection('user')
+		.aggregate()
+		.addFields({
+			is_like: $.in(['$id', userinfo.author_likes_ids])
+		})
+		.match({
+			is_like: true
+		})
+		.end()
+
+	//返回数据给客户端
+	return {
+		code: 200,
+		msg: '数据获取成功',
+		data: lists.data
+	}
+};
+
+// 前台通过调用相应的云函数名关联
+	uniCloud.callFunction({
+			name: url, //封装的云函数名
+			data //请求参数
+		})
+```
+
 
 
