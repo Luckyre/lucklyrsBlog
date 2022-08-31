@@ -77,4 +77,27 @@ exports.main = async (event, context) => {
 		})
 ```
 
+####  uni组件
+
+> uni组件存在基础组件与自定义扩展封装组件
+
+- 1、基础组件内部有一些官方定义的view、scroll-view、progress、navigator等原生组件、直接使用
+
+```html
+<scroll-view class="list-scroll" scroll-y @scrolltolower="loadmore">
+			<view>
+				<slot></slot>
+			</view>
+		</scroll-view>
+```
+- 2、外部组件通过[插件市场](https://ext.dcloud.net.cn/) 下载安装，即会在uni_modules目录显示，可直接在相关业务场景使用,无需import环节，开箱即用的感觉。对比与传统的安装、引用、注册，三个步骤后才能使用组件流程确实精简。
+
+- 3、组件的通用性，难免存在二次封装，在uni中可直接在components目录下创建或者全局创建、挂载在Vue.component上
+
+``` js
+│─components            	符合vue组件规范的uni-app组件目录
+│  └─componentA         	符合‘components/组件名称/组件名称.vue’目录结构，easycom方式可直接使用组件
+│  		└─componentA.vue    可复用的componentA组件
+│  └─component-a.vue      可复用的component-a组件
+```
 
