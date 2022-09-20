@@ -1,6 +1,6 @@
 ---
 title: "计划"
-categories: ["hugo"]
+categories: ["life"]
 date: 2022-09-20T00:00:00+08:00
 draft: true
 dropCap: false
