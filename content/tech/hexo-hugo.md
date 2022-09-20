@@ -62,8 +62,8 @@ git submodule add --depth 1 https://github.com/reuixiy/hugo-theme-meme.git theme
 
 2️、 新建文章
 ```sh
-hugo new "posts/hello-world.md"
-hugo new "about/_index.md"
+hugo new "posts/hello-world.md" --buildFuture  # buildFuture 解决发布日期前无效生成文章问题
+hugo new "about/_index.md"  # 指定默认文件
 ```
 在`content`目录会生成相对应的文件，例如`posts/hello-world.md`文件，`about/_index.md`文件，_index.md文件是主页，可以直接在浏览器打开  
 在hexo迁移hugo中可以把原来hexo的文件`source`目录下的文章cp过来
