@@ -1,11 +1,14 @@
----
-title: "计划"
-categories: ["life"]
-date: 2022-09-20 22:18:25
-draft: true
-dropCap: false
-toc: true
----
++++
+title = "计划"
+date = "2022-09-21 22:18:25"
+tags = ["life"]
+categories = ["life"]
+dropCap = false
+indent = true
+indentFirstParagraph = true
+toc= true
++++
+
 <!-- //框架
 -为什么写计划 --- 1、盲目性，2、自律
 
