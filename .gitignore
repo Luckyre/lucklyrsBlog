@@ -4,3 +4,4 @@ resources
 videos
 .env
 .hugo_build.lock
+themes/*
