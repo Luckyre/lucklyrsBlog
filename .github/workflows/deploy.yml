@@ -5,18 +5,19 @@ name: build
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 'Building...'
-      uses: reuixiy/hugo-deploy@v1
-      env:
-        DEPLOY_REPO: Luckyre/luckyre.github.io
-        DEPLOY_BRANCH: master
-        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-        # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        commit_message: ${{ github.event.head_commit.message }}
+      - name: 'Building...'
+        uses: reuixiy/hugo-deploy@v1
+        env:
+          DEPLOY_REPO: Luckyre/luckyre.github.io
+          DEPLOY_BRANCH: master
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+          commit_message: ${{ github.event.head_commit.message }}
+          TZ: Asia/Shanghai # 设置当前环境时区
