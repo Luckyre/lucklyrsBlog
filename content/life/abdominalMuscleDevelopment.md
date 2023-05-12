@@ -1,10 +1,12 @@
 +++
 title = "腹肌养成计划"
-date = "2023-05-12 06:18:25"
+date = "2023-05-11 22:18:25"
 tags = ["life"]
 categories = ["腹肌养成计划","life"]
 dropCap = false
 gitinfo= true
+indent = true
+indentFirstParagraph = true
 toc= true
 +++
 
