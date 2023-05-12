@@ -1,5 +1,6 @@
 ### 文件结构
 
+```
 . # 说明 Hexo
 ├── archetypes/ # 文章模板 scaffolds/
 ├── assets/ # Hugo 管道
@@ -11,6 +12,8 @@
 ├── resources/ # Hugo 缓存
 ├── static/ # 网站的静态文件 source/
 └── themes/ # 主题目录 themes/
+
+```
 
 ### 记录生活与成长 :rocket::rocket:
 
